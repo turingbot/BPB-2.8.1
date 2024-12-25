@@ -23,6 +23,7 @@ jobs:
 
       - name: Build project
         run: npm run build
+        
       - name: Commit and push built worker
         run: |
           git config --global user.name "github-actions[bot]"
